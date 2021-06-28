@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 class HrEmployeeBirthdays(models.Model):
 	"""Extend to add field of birthday with its date tracking """
@@ -7,4 +7,6 @@ class HrEmployeeBirthdays(models.Model):
 
 	asset_employee_birthday = "birthday"
 
+
+#	TODO
 # birthday / hr.employee
